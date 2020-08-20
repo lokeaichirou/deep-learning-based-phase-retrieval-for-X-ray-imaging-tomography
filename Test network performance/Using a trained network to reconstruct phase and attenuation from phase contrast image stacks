@@ -39,6 +39,7 @@ for i in range(len(flsin)):
     # plt.imshow(output[0],'gray')
 
 
+
 ground_truth_path = '../tomograms/pycharm_demos/single_density/without_Gaussian_shapes/normal_test/without_noise/1024*1024_with_oversampling=2/desired_output/desired_output_stack_of_2/test'
 image_path_attenuation = '../tomograms/pycharm_demos/single_density/without_Gaussian_shapes/normal_test/without_noise/1024*1024_with_oversampling=2/regression_result/SGD/layer=30/dilation = 12/without_elliptical_cylinder/result_for_stack_of_input/npy_format/attenuation'
 image_path_phase = '../tomograms/pycharm_demos/single_density/without_Gaussian_shapes/normal_test/without_noise/1024*1024_with_oversampling=2/regression_result/SGD/layer=30/dilation = 12/without_elliptical_cylinder/result_for_stack_of_input/npy_format/phase'
