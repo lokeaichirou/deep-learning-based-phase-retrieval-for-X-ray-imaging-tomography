@@ -229,3 +229,5 @@ class MSDNet(Network):
         self.off_out = (mean).astype(np.float32)
 
         # The goal of function normalizeoutput is to compute self.gam_in and self.off_in
+
+        
