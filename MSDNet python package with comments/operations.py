@@ -2,8 +2,6 @@
 # each hidden layer produces 1 newly generated intermediate image,i.e. feature map based on all collected intermediate images at this hidden layer itself.
 # Each hidden layer has number of dilation filters which is equal to number of collected intermediate images at this hidden layer itself.  
 
-\begin{lstlisting}
-
 def relu(inp):
     lib.relu(asfloatp(inp.ravel()), aslong(inp.size))
 
