@@ -1,6 +1,5 @@
 # network.py defines the structure of Mixed-scale dense network
 
-\begin{lstlisting}
 class Network(abc.ABC):
     def normalizeinout(self, datapoints):  # this datapoints are objects of #RotateAndFlipDataPoint(OnlyAllDataPoint)
         # class
