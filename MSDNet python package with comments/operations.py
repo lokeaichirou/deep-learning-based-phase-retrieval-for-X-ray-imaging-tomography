@@ -163,3 +163,4 @@ class ImageData(object):
             for j in range(dat.arr.shape[0]):
                 combine(dat.arr[j], self.arr[i], w[i,j]) 
     
+    
